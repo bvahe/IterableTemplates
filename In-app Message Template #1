@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style media="screen" type="text/css">
+      body {
+        font-size: 18px;
+        margin: 0;
+        font-family: Roboto, Helvetica, Arial, "sans-serif";
+      }
+      .wrapper {
+        width: 100%;
+        max-width: 375px;
+        display: block;
+        background: #ffffff;
+        position: relative;
+        vertical-align: middle;
+        z-index: 2;
+        margin: 0 auto;
+        color: #000000;
+        padding: 0;
+        border-radius: 16px;
+        overflow: hidden;
+      }
+      .close a {
+        position: absolute;
+        top: 10px;
+        left: auto;
+        right: 10px;
+        padding: 15px;
+        color: #999999;
+        font-size: 24px;
+        text-decoration: none;
+        outline: none !important;
+      }
+      .banner {
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+      }
+      .banner img {
+        width: 100%;
+      }
+      h1 {
+        font-size: 30px;
+        text-align: center;
+        font-weight: 700;
+        color: #000000;
+        margin: 20px 0;
+      }
+      p {
+        font-size: 18px;
+        padding: 0 30px;
+        margin-bottom: 20px;
+        color: #000000;
+        text-align: center;
+      }
+      .cta {
+        margin: 0 auto 40px;
+        text-align: center;
+        width: 240px;
+      }
+      .btn {
+        font-size: 21px;
+        font-weight: 700;
+        padding: 15px;
+        border-radius: 8px;
+        background: #ff9332;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+      }
+    </style>
+    <title>In-App Message</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="close">
+          <a href="iterable://dismiss">
+            &times;
+          </a>
+        </div>
+        <div class="banner">
+          <img src="https://images.unsplash.com/photo-1557672172-298e090bd0f1" alt="In-App Message Example"/>
+        </div>
+        <div>
+          <h1>Discover New Features</h1>
+          <p>Stay ahead with the latest updates and make the most of our app</p>
+          <div class="cta">
+            <a href="https://coinstats.app" class="btn" target="_blank">TRY NOW</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
