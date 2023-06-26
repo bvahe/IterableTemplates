@@ -9,7 +9,7 @@ To use these templates, follow the steps below:
 1. Clone the repository to your local machine or download the ZIP file.
 
    ```shell
-   git clone https://github.com/your-username/iterable-inapp-templates.git
+   git clone https://github.com/your-username/iterable-inapp-templates.git](https://github.com/bvahe/IterableTemplates.git
 
 
 2. Navigate to the templates directory within the repository.
